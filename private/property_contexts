@@ -721,6 +721,7 @@ ro.lmk.debug                    u:object_r:lmkd_config_prop:s0 exact bool
 ro.lmk.delay_monitors_until_boot u:object_r:lmkd_config_prop:s0 exact bool
 ro.lmk.downgrade_pressure       u:object_r:lmkd_config_prop:s0 exact int
 ro.lmk.filecache_min_kb         u:object_r:lmkd_config_prop:s0 exact int
+ro.lmk.force_low_ram            u:object_r:lmkd_config_prop:s0 exact bool
 ro.lmk.kill_heaviest_task       u:object_r:lmkd_config_prop:s0 exact bool
 ro.lmk.kill_timeout_ms          u:object_r:lmkd_config_prop:s0 exact int
 ro.lmk.log_stats                u:object_r:lmkd_config_prop:s0 exact bool
